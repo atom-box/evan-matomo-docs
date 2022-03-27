@@ -55,3 +55,5 @@ Follow below steps to add, change or remove an icon.
 * Update [plugins/Morpheus/templates/demo.twig](https://github.com/matomo-org/matomo/blob/4.3.0-b3/plugins/Morpheus/templates/demo.twig#L613) by adding or removing the name of the changed icon in one of the available categories. If the icon is not appearing on the page, try clearing the cache `./console cache:clear`.
 * Open `https://{REPLACE WITH YOUR MATOMO DOMAIN}/index.php?module=Morpheus&action=demo#icons` and check if the icon shows up correctly.
 * Update our [LEGALNOTICE](https://github.com/matomo-org/matomo/blob/4.x-dev/LEGALNOTICE) and mention or remove the name of the icon we added, changed or removed. You already find a list of icons we've been using so far in this file.
+
+An alternative tool is at [WebsitePlanet](https://github.com/matomo-org/developer-documentation/blob/5c338db3af353a6cca0c23c7cff96e1f6702a08d/docs/4.x/matomo-font.md).  This tool can create favicons from files that are up to 5 MB in either JPG, PNG or GIF, or also a gallery.
